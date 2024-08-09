@@ -14,7 +14,7 @@ const bgStyle = {
 const Banner3 = () => {
   return (
     <>
-      <section className="">
+      <section className="container mb-12">
         <div
         style={bgStyle}
           className="container grid grid-cols-1
@@ -45,7 +45,7 @@ const Banner3 = () => {
                 className="text-3xl lg:text-6xl font-bold
                 uppercase"
               >
-                Brand Info
+                Get Fresh Fruit Today
               </motion.h1>
               <motion.p
                 variants={FadeLeft(0.7)}

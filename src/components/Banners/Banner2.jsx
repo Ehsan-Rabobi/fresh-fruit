@@ -24,7 +24,7 @@ const Banner2 = () => {
                 className="text-3xl lg:text-6xl font-bold
                 uppercase"
               >
-                Brand Info
+                Online Fruit Store
               </motion.h1>
               <motion.p
                 variants={FadeUp(0.7)}
@@ -52,7 +52,7 @@ const Banner2 = () => {
                 animate="visible"
                 className="flex justify-center md:justify-start"
               >
-                <button className="primary-btn">Learn More</button>
+                <button className="primary-btn">Download the App</button>
               </motion.div>
             </div>
           </div>
@@ -63,7 +63,7 @@ const Banner2 = () => {
               transition={{ duration: 1, delay: 0.2 }}
               viewport={{ once: true }}
               src={BannerPng}
-              className="w-[300px] md:max-w-[400px]
+              className="w-[350px] md:max-w-[500px]
                 h-full object-cover drop-shadow"
               alt=""
             />
